@@ -1,8 +1,8 @@
 def main():
-    
+    num = []
     i = 0; total = 0
     while(i<5):
-        num = int(input(0))
+        num = int(input('Enter your number here: '))
         total += num
         i += 1
     print(total)
